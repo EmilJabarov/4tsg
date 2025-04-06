@@ -1,0 +1,42 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.8",
+    "next": "^15.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.34.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "@types/react": "^19.1.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
+    "file-loader": "^6.2.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.8.3"
+  },
+  "description": "This repository contains the source code for a personal website built using React, Next.js, and Tailwind CSS. The site showcases a user profile card with a dynamic 3D effect and includes sections for a banner, profile details, and an \"About Me\" section.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmilJabarov/4tsg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EmilJabarov/4tsg/issues"
+  },
+  "homepage": "https://github.com/EmilJabarov/4tsg#readme",
+  "license": "ISC"
+}
