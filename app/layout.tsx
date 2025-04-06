@@ -1,0 +1,46 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
+import "./globals.css";
+
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "@4tsg",
+  description: "Private Biolink developed with Next.js | @jbrvemilll on ig",
+  icons: {
+    icon: "https://cdn.discordapp.com/emojis/1310254577831903254.webp?size=128",
+  },
+  openGraph: {
+    title: "@4tsg | @jbrvemilll",
+    description: "Private Biolink developed with Next.js | @jbrvemilll on ig",
+    url: "https://dec.al",
+    images: [
+      {
+        url: "https://i.pinimg.com/736x/9f/c7/e3/9fc7e3ec06cd28eb55b3bc8a0663cb69.jpg", // Replace with your thumbnail URL
+        width: 1200,
+        height: 630,
+        alt: "Thumbnail description",
+      },
+    ],
+  },
+};
+
+// Define viewport configuration for theme color
+export const viewport = {
+  themeColor: "#000000", // Black embed color
+};
+
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
