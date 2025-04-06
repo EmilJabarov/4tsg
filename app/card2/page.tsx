@@ -77,7 +77,7 @@ function FramedCard () {
       <br />
       Reactjs ∼ Tailwind ∼ Typescript
       <br />
-      GHL Student @ UH | 19
+      XXI Century student class of &apos;27
     </p>
   </div>
 </CardItem>
