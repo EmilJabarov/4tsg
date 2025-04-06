@@ -30,7 +30,6 @@
     "typescript": "^5.8.3"
   },
   "description": "This repository contains the source code for a personal website built using **React**, **Next.js**, and **Tailwind CSS**. The site showcases a user profile card with a dynamic 3D effect and includes sections for a banner, profile details, and an \"About Me\" section.",
-  "main": "postcss.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EmilJabarov/4tsg.git"
